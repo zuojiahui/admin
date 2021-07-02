@@ -24,6 +24,15 @@ export default [
             routes: [
               {
                 path: '/',
+                redirect: './Welcome',
+                
+              },
+              {
+                name: '首页',
+                path: '/Welcome',
+                icon:"BarChartOutlined",
+                component: './Home',
+                
               },
               {
                 component: './404',

@@ -73,7 +73,6 @@ const BasicLayout = (props) => {
   return (
     <ProLayout
       logo={logo}
-      formatMessage={formatMessage}
       {...props}
       {...settings}
       onCollapse={handleMenuCollapse}
