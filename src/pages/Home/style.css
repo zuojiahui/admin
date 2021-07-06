@@ -16,6 +16,34 @@
   padding-top: 8px;
   border-top: 1px solid #f0f0f0;
 }
+/* 首页头部 */
+.top-img-box {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+}
+.top-Card {
+  margin-bottom: 24px;
+}
+.top-Card .ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.top-Statistic-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.top-Statistic {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+}
 /* 首页样式 */
 .child-content {
   display: flex;
@@ -27,4 +55,48 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+/* 进行中项目 */
+.Col-box {
+  margin-top: 24px;
+  padding-right: 4px;
+}
+.rojectLiset-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rojectLiset-title-all {
+  color: #1890ff;
+  outline: none;
+  cursor: pointer;
+}
+.rojectLiset-avatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.rojectLiset-avatar-titile {
+  margin-left: 12px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  cursor: pointer;
+}
+.rojectLiset-describe {
+  height: 44px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 22px;
+  text-align: left;
+}
+.rojectLiset-personnel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  margin-top: 8px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  line-height: 20px;
 }
